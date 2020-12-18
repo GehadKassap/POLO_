@@ -1,0 +1,574 @@
+body
+{
+    font-family: sans-serif, Geneva, Tahoma, sans-serif
+}
+/*****nav section*********/
+nav 
+{
+    transition: padding 1s , background-color 1s;
+        -webkit-transition: padding 1s , background-color 1s;
+    -moz-transition: padding 1s , background-color 1s;
+    -ms-transition: padding 1s , background-color 1s;
+    -o-transition: padding 1s , background-color 1s;
+}
+
+
+nav #logo 
+{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+.navModidy
+{
+    background-color: #FFFFFF;
+    padding:0px 100px ;
+    box-shadow: 5px 10px rgb(240,240,240);
+}
+.navRespon
+{
+    background-color:#2A55F4 ;
+    /* color: white; */
+}
+.bt{
+    background-color: black;
+}
+
+ nav ul li a:hover
+{
+    color:rgb(154,162,166) !important;
+} 
+/* .try
+{
+    position: relative;
+} */
+nav #subMenu 
+{
+    position: fixed;
+    z-index: 22;
+}
+nav #subMenu ul 
+{
+    display: none; 
+    list-style-type: none;
+}
+.colorHover
+{
+    color: black !important;
+}
+nav #subMenuFeature 
+{
+    position: fixed;
+    z-index: 22;
+}
+nav #subMenuFeature ul 
+{
+    display: none; 
+    list-style-type: none;
+}
+nav #subMenuElement 
+{
+    position: fixed;
+    z-index: 22;
+}
+nav #subMenuElement
+{
+    display: none; 
+
+}
+nav #subMenuElement ul 
+{
+    list-style-type: none;
+}
+nav #subMenuPg 
+{
+    position: fixed;
+    z-index: 22;
+}
+nav #subMenuPg ul 
+{
+    display: none; 
+    list-style-type: none;
+}
+
+
+
+nav #navbarNavDropdown div ul li a 
+{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 500;
+    color: #444;
+    transition: .3s ease;
+}
+
+/**************end nav section ****/
+/*****btn scroll *****/
+#btnScroll
+{
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    z-index: 11111;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgb(179,181,183);
+    border: 1px solid rgb(179,181,183);
+    display: none;
+}
+/********start header section****/
+
+header
+{
+    background-image: url(../images/parallex/18.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+#bgHeader
+{
+    background-color:rgba(0,0,0,.5) ;
+    height: 100%;
+}
+header #bgHeader  h1
+{
+    font-size: 50px!important;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: .5px;
+    color: white;
+}
+header #bgHeader p 
+{
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: white;
+}
+header .btns
+{
+    margin-left: 500px;
+}
+header button 
+{
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+header  .edit
+{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+header  .btn1
+{
+    border-radius: 5px 5px 5px 5px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+header  .btn1:hover
+{
+    background-color :#2250FC;
+}
+
+header  .edit:hover
+{
+       border: 2px solid #FFFFFF; 
+       background-color:#FFFFFF ;
+       color: black;
+}
+
+/**********end header section**************/
+/********start of company section **************/
+
+#company .content h2
+{
+    position: relative;
+
+}
+#company .content h2::before
+{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    bottom: -30px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(34, 80, 252);
+
+}
+#company .content p 
+{
+    font-size: 1.25rem;
+    color: #484848;
+}
+#company .skillBar
+{
+    height: 10px;
+    background-color: #cacaca;
+    border-radius:2px ;
+    -webkit-border-radius:2px ;
+    -moz-border-radius:2px ;
+    -ms-border-radius:2px ;
+    -o-border-radius:2px ;
+}
+#company .skillBar .skillPer
+{
+    height: 10px;
+    background-color: #2250FC;
+    border-radius:2px ;
+    -webkit-border-radius:2px ;
+    -moz-border-radius:2px ;
+    -ms-border-radius:2px ;
+    -o-border-radius:2px ;
+    position: relative;
+    transition: linear 2s;
+    -webkit-transition: linear 2s;
+    -moz-transition: linear 2s;
+    -ms-transition: linear 2s;
+    -o-transition: linear 2s;
+}
+#company .skillBar .skillPer::before
+{
+    position: absolute;
+    content: attr(per);
+    padding: 4px 6px;
+    top: -30px;
+   right: 1rem;
+}
+#company .skills .skill p 
+{
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+}
+#company .skills .skillPer[per]
+{
+    color: #333;
+    font-size: 14px;
+}
+/*******end of company section *****/
+
+
+/*****start counter section  ******/
+
+#counter
+{
+    background-color: rgb(247,249,251);
+}
+#counter .counterNumbers
+{
+    font-size: 50px;
+    line-height: 40px;
+}
+#counter span 
+{
+    color: rgb(54,39,17)!important;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+}
+/******end of counter section *****/
+
+
+/**************start our services section**********/
+#servicesSection h2 , #blog h2 
+{
+    position: relative;
+}
+#servicesSection .content i 
+{
+    padding: 25px;
+   
+}
+#servicesSection    i 
+{
+    font-size: 20px;
+}
+#servicesSection .content .col-lg-4 :hover i
+{
+   border: 3px solid rgb(52,52,52);
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+#servicesSection h2::before
+ {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 150px;
+    background-color: rgb(34, 80, 252);
+    bottom: -30px;
+    left: 0px;
+    right: 0px;
+}
+#servicesSection span 
+{
+    font-size: 1.25rem;
+    color: #484848;
+}
+#servicesSection h5
+{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #1f1f1f;
+}
+#servicesSection .content  .fade1
+{
+    display: none ;
+}
+#servicesSection .content  .fade2
+{
+    display: none ;
+}
+#servicesSection .content  .fade3
+{
+    display: none ;
+}
+#servicesSection .content  .fade4
+{
+    display: none ;
+}
+#servicesSection .content  .fade5
+{
+    display: none ;
+}
+#servicesSection .content  .fade6
+{
+    display: none ;
+}
+#servicesSection .content  .fade7
+{
+    display: none ;
+}
+#servicesSection .content  .fade8
+{
+    display: none ;
+}
+#servicesSection .content  .fade9
+{
+    display: none ;
+}
+
+/*******end our services section ****************/
+
+
+#border .divider i 
+{
+   color: black;
+}
+#border .divider i ::before
+{
+    border-bottom: 1px solid #eee;
+    content: "";
+    height: .65em;
+/* background-color: #CED6E3; */
+    width: 50%;
+}
+/*****start of client section *****/
+#clientSec h2
+{
+    position: relative;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -.7px;
+    font-weight: 500;
+
+}
+#clientSec h2::before
+{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    bottom: -2rem;
+    left:0;
+    right: 0px;
+    background-color: rgb(34, 80, 252);
+
+}
+.borderClient::before
+{
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: -1px;
+    border-right: 1px solid #eee;
+}
+#clientSec .borderClient 
+{
+    cursor: pointer;
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+#clientSec .borderClient:hover
+{
+    background-color:  rgb(240,240,240);
+}
+.borderClient::after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: auto;
+    left: 0;
+    bottom: -1px;
+    border-bottom: 1px solid #eee
+}
+
+/******* end of client section   *****/
+
+/*****************************start of blog section*******/
+#blog 
+{
+    background-color: rgb(247, 249, 251) !important;
+}
+#blog .card
+{
+    position: relative;
+}
+ #blog .type
+ {
+     position: absolute;
+     top: 1rem;
+     right: 1rem;
+     border-radius: 50px;
+     color: #fff;
+     font-size: 13px;
+     z-index: 111;
+     width: 90px;
+     background-color: #2250fc;
+     -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+     -ms-border-radius: 50px;
+     -o-border-radius: 50px;
+}
+
+#blog h2::before
+ {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 150px;
+    background-color: rgb(34, 80, 252);
+    bottom: -30px;
+    left: 0px;
+    right: 0px;
+}
+
+#blog span 
+{
+    font-size: 1.25rem;
+    color: rgb(72, 72, 72);
+}
+#blog h5
+{
+    font-size: 18px;
+    letter-spacing: -0.1px;
+    color: rgb(68, 68, 68);
+    font-weight: 600;
+    line-height: 23px;
+    cursor: pointer;
+}
+#blog h5:hover
+{
+    color: #2250FC;
+}
+#blog a
+{
+    color: #484848;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase!important;
+    text-decoration: none;
+
+}
+ #blog .card-body a :hover
+{
+   color: #2250FC;
+}
+/***********end of blog section *************/
+
+/******************start footer section **********************/
+
+
+footer 
+{
+    background-color: #F7F9FB   ;
+
+}
+.purchase p 
+{
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.7;
+    color: #777;
+}
+footer h6 
+{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.purchase button 
+{
+    width: 150px;
+    text-transform: uppercase;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    background-color: #1C4AF8;
+    height: 40px;
+    
+}
+.copyRights
+{
+    background-color: #eff1f4;
+    font-size: 13px;
+}
+.copyRights a 
+{
+    color: #484848;
+    text-decoration: none;
+}
+.copyRights a:hover
+{
+    color: #2250FC;
+}
+footer ul 
+{
+    list-style-type:none ;
+    cursor: pointer;
+}
+
+footer ul li
+{
+    color: #484848;
+    line-height: 32px;
+    font-size: 14px;
+}
+footer ul li:hover
+{
+    color: #2250FC;
+}
+/***********end footer section**********************/

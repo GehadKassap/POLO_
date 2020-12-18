@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLO</title>
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+ <!--scroll smothly-->
+ <button id="btnScroll" class="btn btn-danger ">
+    <i class="fa fa-chevron-up "></i>
+ </button>
+
+     
+           <!--   start nav section-->
+           <nav class="navbar navbar-expand-lg navbar-dark  fixed-top"> 
+            <div class="container">
+              <a class="navbar-brand" href="#"><span id="logo">polo</span></a>
+
+              
+    <button id="btnResponsive" class="navbar-toggler bt " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                   
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active try" href="#subMenu">Layout</a>
+                    <div id="subMenu" class=" mt-4">
+                        <ul >
+                            <li class="nav-item "><a class="nav-link colorHover " aria-current="page" href="#">topbar</a></li>
+                            <li class="nav-item colorHover"> <a class="nav-link colorHover" aria-current="page" href="#">header</a></li>
+                            <li class="nav-item"><a class="nav-link colorHover " aria-current="page" href="#">Main Menu <span class="badge badge-primary">new</span></a></li>
+                            <li class="nav-item"><a class="nav-link colorHover " aria-current="page" href="#">Page Title</a></li>
+                            <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Page Menu <span class="badge badge-primary">new</span></a></li>
+                            <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Side Bar</a></li>
+                            <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Footer</a></li>
+                            <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Option</a></li>
+                            <li class="nav-item"><a  class="nav-link colorHover" aria-current="page" href="#">LayOut Demons<span class="badge badge-danger">200+</span></a></li>
+                        </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#subMenuFeature">feature</a>
+                    <div id="subMenuFeature" class=" mt-4">
+                        <ul >
+                            <li class="nav-item "><a class="nav-link colorHover " aria-current="page" href="#">slider</a></li>
+                            <li class="nav-item colorHover"> <a class="nav-link colorHover" aria-current="page" href="#">widgets</a></li>
+                            <li class="nav-item"><a class="nav-link colorHover " aria-current="page" href="#">Page Loaders<span class="badge badge-danger ml-1">new</span></a></li>
+                            <li class="nav-item"><a class="nav-link colorHover " aria-current="page" href="#">Modal Auto Open<span class="badge badge-danger ml-1">new</span> </a></li>
+                            <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">cookie Notify <span class="badge badge-danger ml-1">new</span></a></li>
+                            <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Shape Drivers <span class="badge badge-danger ml-1">new</span></a></li>
+                            <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Menu Labels</a></li>
+                        </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                      <!--   <ul >
+                            <li class="nav-item "><a class="nav-link colorHover " aria-current="page" href="#">topbar</a></li>
+                            <li class="nav-item colorHover"> <a class="nav-link colorHover" aria-current="page" href="#">header</a></li>
+                            <li class="nav-item"><a class="nav-link colorHover " aria-current="page" href="#">Main Menu <span class="badge badge-primary">new</span></a></li>
+                            <li class="nav-item"><a class="nav-link colorHover " aria-current="page" href="#">Page Title</a></li>
+                            <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Page Menu <span class="badge badge-primary">new</span></a></li>
+                            <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Side Bar</a></li>
+                            <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Footer</a></li>
+                            <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Option</a></li>
+                            <li class="nav-item"><a  class="nav-link colorHover" aria-current="page" href="#">LayOut Demons<span class="badge badge-danger">200+</span></a></li>
+                        </ul>-->
+                    <a class="nav-link active" href="#subMenuElement">elements</a>
+                    <div id="subMenuElement" class=" mt-4 m-auto ">
+                        <div class="row ele py-2">
+                            <div class="col-lg-6">
+                                <ul class="text-left" >
+                                    <li class="nav-item "><a class="nav-link colorHover " aria-current="page" href="#">Acoordions</a></li>
+                                    <li class="nav-item colorHover"> <a class="nav-link colorHover" aria-current="page" href="#">Alerts</a></li>
+                                    <li class="nav-item"><a class="nav-link colorHover " aria-current="page" href="#">Aninmation</a></li>
+                                    <li class="nav-item"><a class="nav-link colorHover " aria-current="page" href="#">Avatar <span class="badge badge-danger ml-1">200+</span></a></li>
+                                    <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Audio&video</a></li>
+                                    <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Block Quotes</a></li>
+                                    <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">BS switch</a></li>
+                                    <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">BS bredify</a></li>
+                                    <li class="nav-item"><a  class="nav-link colorHover" aria-current="page" href="#">BreadCrumbs</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul class="text-left" >
+                                    <li class="nav-item "><a class="nav-link colorHover " aria-current="page" href="#">Charts<span class="badge badge-danger ml-1">new</span></a></li>
+                                    <li class="nav-item "> <a class="nav-link colorHover" aria-current="page" href="#">Calender<span class="badge badge-primary ml-1">new</span></a></li>
+                                    <li class="nav-item"><a class="nav-link colorHover " aria-current="page" href="#">Client Logos</a></li>
+                                    <li class="nav-item"><a class="nav-link colorHover " aria-current="page" href="#">Call to action</a></li>
+                                    <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Carsoul <span class="badge badge-primary ml-1">new</span></a></li>
+                                    <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Code</a></li>
+                                    <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">CountDown</a></li>
+                                    <li class="nav-item"><a class="nav-link colorHover" aria-current="page" href="#">Count Down</a></li>
+                                    <li class="nav-item"><a  class="nav-link colorHover" aria-current="page" href="#">LayOut</a></li>
+                                </ul>
+                            </div>
+                           
+                          
+                            
+                        </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#subMenuPg">pages</a>
+                    <div id="subMenuPg" class=" mt-4">
+                        <ul class="px-4">
+                            <li class="nav-item mb-1"><a class="nav-link colorHover " aria-current="page" href="#">about us</a></li>
+                            <li class="nav-item mb-1"> <a class="nav-link colorHover" aria-current="page" href="#">about me</a></li>
+                            <li class="nav-item mb-1"><a class="nav-link colorHover " aria-current="page" href="#">contact us <span class="badge badge-primary">new</span></a></li>
+                            <li class="nav-item mb-1"><a class="nav-link colorHover " aria-current="page" href="#">gallary</a></li>
+                            <li class="nav-item mb-1"><a class="nav-link colorHover" aria-current="page" href="#">user pages<span class="badge badge-primary">new</span></a></li>
+                            <li class="nav-item mb-1"><a class="nav-link colorHover" aria-current="page" href="#">Services</a></li>
+                            <li class="nav-item mb-1"><a class="nav-link colorHover" aria-current="page" href="#">Our team</a></li>
+                            <li class="nav-item mb-1"><a class="nav-link colorHover" aria-current="page" href="#">Our Clients</a></li>
+                            <li class="nav-item mb-1"><a  class="nav-link colorHover" aria-current="page" href="#">Maintainance</a></li>
+                            <li class="nav-item mb-1"><a  class="nav-link colorHover" aria-current="page" href="#">404 page</a></li>
+                            <li class="nav-item mb-1"><a  class="nav-link colorHover" aria-current="page" href="#">404 page-parallex</a></li>
+                            <li class="nav-item mb-1"><a  class="nav-link colorHover" aria-current="page" href="#">500 page</a></li>
+                            <li class="nav-item mb-1"><a  class="nav-link colorHover" aria-current="page" href="#">Fullwidth page</a></li>
+                            <li class="nav-item mb-1"><a  class="nav-link colorHover" aria-current="page" href="#">Fullwidth page-wide</a></li>
+                            <li class="nav-item mb-1"><a  class="nav-link colorHover" aria-current="page" href="#">page with sidebar</a></li>
+                            <li class="nav-item mb-1"><a  class="nav-link colorHover" aria-current="page" href="#">FAQ</a></li>
+                            <li class="nav-item mb-1"><a  class="nav-link colorHover" aria-current="page" href="#">Site Map</a></li>
+
+
+                        </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">   <i class="fas fa-search"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#"><i class="fas fa-globe"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav> 
+    
+    
+          <!--   start head section-->
+         <header id="header" class="mb-5" >
+            <div id="bgHeader"  class="d-flex justify-content-center align-items-center">
+               <div class="container text-center">
+                   <h1 class="headerAddrss text-center">MAKE YOUR NEXT WEB BETTER!</h1>
+                   <p class="text-center">Beautiful websites are now easy to made! Ready to Purchase POLO Template?</p>
+                   
+                        <button class="btn btn-primary  btn1 "><i class="fa fa-bolt"></i>explore</button>
+                           <button class="btn btn-danger edit">purchase</button>
+                   
+                
+                </div>
+            </div>
+            
+        </header>
+    <!--end of head section-->
+    <!--start of company section-->
+    <div data-aos="flip-left"></div>
+    <section id="company" class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content">
+                       <h2 class="mb-5">THE COMPANY</h2>
+                       <p>The most happiest time of the day!. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. A true story, that never been told!. Fusce id mi diam, non ornare orc
+                            i. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="skills mt-5">
+                        <div class="skill mb-2">
+                           <p class="skillName ">HTML</p>
+                           <div class="skillBar">
+                               <div class="skillPer text-muted" per="100%"></div>
+                           </div>
+                        </div>
+                        <div class="skill mb-2"">
+                           <p class="skillName">CSS</p>
+                           <div class="skillBar">
+                               <div class="skillPer text-muted" per="94%"></div>
+                           </div>
+                        </div>
+                        <div class="skill mb-2"">
+                           <p class="skillName">JQUERY</p>
+                           <div class="skillBar">
+                               <div class="skillPer text-muted" per="78%"></div>
+                           </div>
+                        </div>
+                        <div class="skill">
+                           <p class="skillName">MYSQL</p>
+                           <div class="skillBar">
+                               <div class="skillPer text-muted" per="56%"></div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+<!--end of company section-->
+
+<!--start counter section-->
+
+<section id="counter" class="py-5"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-3 text-center mb-4">
+                <i class="fa fa-3x fa-code ml-4"></i>
+                <p class="ml-4 mt-2 counterNumbers" data-target="3000">0</p>
+                <span>LINES OF CODE</span>
+            </div>
+            <div class="col-md-12 col-lg-3 text-center mb-4">
+                <i class="fa fa-3x fa-coffee ml-4"></i>
+                <p class="ml-4 mt-2 counterNumbers" data-target="5000">0 </p>
+                <span>CUPS OF COFFEE</span>
+            </div>
+            <div class="col-md-12 col-lg-3 text-center mb-4">
+                <i class="fa fa-3x fa-rocket ml-4"></i>
+                <p class="ml-4 mt-2 counterNumbers" data-target="7000">0</p>
+                <span>FINISHED PROJECTS</span>
+            </div>
+            <div class="col-md-12 col-lg-3 text-center mb-4">
+                <i class="fas fa-smile fa-3x ml-4"></i>  
+               <p class="ml-4 mt-2 counterNumbers" data-target="9000">0 </p>
+                <span>SATISFIED CLIENTS</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!---end of counter section-->
+  <!--start services section-->
+<section id="servicesSection" class="mt-5 pt-5">
+<div class="container">
+    <div class="content">
+        <h2 class="mb-5">OUR SERVICES</h2>
+        <span>Create amam ipsum dolor sit amet, Beautiful nature, and rare feathers!.</span>
+        <div class="row mb-5 mt-4">
+           
+            <div class="col-lg-4 fade1">
+                <div class="row mt-2">
+                  
+                    <div class="col-md-3">
+                        <i class="fas fa-plug fa-2x"></i>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="contentService ">
+                             <h5> Powerful template</h5>
+                             <p>Lorem ipsum dolor sit ame
+                                 t, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+      
+            <div class="col-lg-4 fade2">
+                <div class="row mt-2">
+                  
+                    <div class="col-md-3">
+                        <i class="fas fa-desktop fa-2x"></i>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="contentService ">
+                             <h5> Flexible Layouts</h5>
+                             <p>Lorem ipsum dolor sit ame
+                                 t, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="col-lg-4 fade3">
+                <div class="row mt-2">
+                  
+                    <div class="col-md-3">
+                        <i class="fas fa-cloud"></i>          
+                    </div>
+                    <div class="col-md-9">
+                        <div class="contentService ">
+                             <h5> Retina Ready</h5>
+                             <p>Lorem ipsum dolor sit ame
+                                 t, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="col-lg-4 fade4">
+                <div class="row mt-2">
+                  
+                    <div class="col-md-3">
+                        <i class="fas fa-lightbulb"></i>          
+                    </div>
+                    <div class="col-md-9">
+                        <div class="contentService ">
+                             <h5>  Fast processing</h5>
+                             <p>Lorem ipsum dolor sit ame
+                                 t, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="col-lg-4 fade5">
+                <div class="row mt-2">
+                  
+                    <div class="col-md-3">
+                        <i class="fas fa-trophy fa-2x"></i>          
+                    </div>
+                    <div class="col-md-9">
+                        <div class="contentService ">
+                             <h5> Unlimited Colors</h5>
+                             <p>Lorem ipsum dolor sit ame
+                                 t, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="col-lg-4 fade6">
+                <div class="row mt-2">
+                  
+                    <div class="col-md-3">
+                        <i class="fas fa-thumbs-up fa-2x"></i>           
+                             </div>
+                    <div class="col-md-9">
+                        <div class="contentService ">
+                             <h5>Premium Sliders</h5>
+                             <p>Lorem ipsum dolor sit ame
+                                 t, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="col-lg-4 fade7">
+                <div class="row mt-2">
+                  
+                    <div class="col-md-3">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="contentService ">
+                             <h5> Modern Design</h5>
+                             <p>Lorem ipsum dolor sit ame
+                                 t, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="col-lg-4 fade8">
+                <div class="row mt-2">
+                  
+                    <div class="col-md-3">
+                        <i class="fas fa-flask "></i>       
+                     </div>
+                    <div class="col-md-9">
+                        <div class="contentService ">
+                             <h5>Clean Modern Code</h5>
+                             <p>Lorem ipsum dolor sit ame
+                                 t, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="col-lg-4 fade9">
+                <div class="row mt-2">
+                  
+                    <div class="col-md-3">
+                        <i class="fas fa-umbrella"></i>  
+                                      </div>
+                    <div class="col-md-9">
+                        <div class="contentService ">
+                             <h5>Free Updates & Support</h5>
+                             <p>Lorem ipsum dolor sit ame
+                                 t, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+   <!--end services section-->
+   <!-- <div id="border" class="d-flex align-items-center">
+    <div class="m-auto divider">
+        <i class="fa fa-chevron-down my-5"></i>
+    </div>
+   </div> -->
+   <!--start of client section-->
+
+   <section id="clientSec" class="pt-5">
+  <div class="container">
+      <h2 class=" mb-5 ">OUR CLIENTS</h2>
+      <p class=" mb-5">Our awesome clients we've had the pleasure to work with!</p>
+     <div class="row ml-5">
+         <div class="col-md-4  col-lg-2 col-sm-6    borderClient p-5">
+             <img src="images/clients/1.png" class="img-fluid">
+         </div>
+         <div class="col-md-4  col-lg-2 col-sm-6  borderClient p-5">
+            <img src="images/clients/10.png" class=img-fluid>
+        </div>
+        <div class="col-md-4  col-lg-2 col-sm-6   borderClient p-5">
+            <img src="images/clients/2.png" class="img-fluid">
+        </div>
+        <div class="col-md-4  col-lg-2 col-sm-6    borderClient p-5">
+            <img src="images/clients/3.png" class="img-fluid">
+        </div>
+        <div class="col-md-4  col-lg-2 col-sm-6  borderClient p-5">
+            <img src="images/clients/4.png" class="img-fluid">
+        </div>
+     </div>
+     <div class="row ml-5">
+        <div class="col-md-4  col-lg-2 col-sm-6 borderClient p-5">
+            <img src="images/clients/5.png" class="w-100">
+        </div>
+        <div class="col-md-4 col-lg-2 col-sm-6 borderClient p-5">
+           <img src="images/clients/6.png" class="w-100">
+       </div>
+       <div class="col-md-4 col-lg-2 col-sm-6 borderClient p-5">
+           <img src="images/clients/7.png" class="w-100">
+       </div>
+       <div class="col-md-4 col-lg-2 col-sm-6 borderClient p-5">
+           <img src="images/clients/8.png" class="w-100">
+       </div>
+       <div class="col-md-4 col-lg-2 col-sm-6 borderClient p-5">
+           <img src="images/clients/9.png" class="w-100">
+       </div>
+    </div>
+    </div>
+   </section>
+   <!--end of client section-->
+
+
+
+
+  <!--start blog section-->
+  <section id="blogSection">
+    <div id="blog" class="mt-5 py-5">
+        <div class="container">
+            <div class="content">
+                <h2 class="mb-5">OUR BLOG</h2>
+                <span >The most happiest time of the day!.</span>
+                <div class="row mt-4">
+                    <div class="col-lg-4 col-md-6 mt-2">
+                      <div class="card w-100 " >
+                          <img src="images/blog/12.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <small>Jan 21,     201733 Comments</small>
+                              <div class="type p-2 text-center">lifeStyle</div>
+
+                            <h5 class="card-title">Standard post with a single image</h5>
+                            <p class="card-text">Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feu
+                                giat. Fusce at velit id ligula pharetra laoreet.</p>
+                            <a href="#" >READ MORE <i class="fa fa-arrow-right"></i></a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-md-6 mt-2">
+                      <div class="card w-100" ">
+                          <img src="images/blog/17.jpg" class="card-img-top">
+                          <div class="card-body">
+                              <small>Jan 21,     201733 Comments</small>
+
+                              <div class="type p-2 text-center">Sience</div>
+
+                              <h5 class="card-title">Standard post with a single image</h5>
+                              <p class="card-text">Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feu
+                                  giat. Fusce at velit id ligula pharetra laoreet.</p>
+                              <a href="#" >READ MORE <i class="fa fa-arrow-right"></i></a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-2">
+                      <div class="card w-100" style="width: 18rem;">
+                          <img src="images/blog/18.jpg" class="card-img-top" >
+                          <div class="card-body">
+                              <div class="type p-2 text-center">Sience</div>
+                              <small>Jan 21,     201733 Comments</small>
+
+                              <h5 class="card-title">Standard post with a single image</h5>
+                              <p class="card-text">Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feu
+                                  giat. Fusce at velit id ligula pharetra laoreet.</p>
+                              <a href="#" >READ MORE <i class="fa fa-arrow-right"></i></a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   <!--end blog section-->
+
+
+  <!--start footer section-->
+  <footer class="pt-5">
+    <div class="container mb-5">
+       <div class="row">
+           <div class="col-lg-5">
+               <div class="purchase w-75 pt-5">
+                   <h6>
+                       POLO HTML5 TEMPLATE 
+                   </h6>
+                   <p>Built with love in Fort Worth, Texas,
+                        USA
+                       All rights reserved. Copyright © 2019. INSPIRO.</p>
+                   <button class="btn btn-primary my-sm-3">purchase now</button>
+               </div>
+           </div>
+           <div class="col-lg-7">
+               <div class="row">
+                   <div class="col-lg-3">
+                       <div class="discover">
+                           <h6 class="mb-4 ml-4">discover</h6>
+                           <ul>
+                               <li>Features</li>
+                               <li>Layouts</li>
+                               <li>Corporate</li>
+                               <li>Updates</li>
+                               <li>Pricing</li>
+                               <li>Customers</li>
+                           </ul>
+                       </div>
+                   </div>
+                   <div class="col-lg-3">
+                       <div class="feature">
+                           <h6 class="mb-4 ml-4">FEATURES</h6>
+                           <ul>
+                               <li>Layouts</li>
+                               <li>Headers</li>
+                               <li>Widgets</li>
+                               <li>Footers</li>
+                               
+                           </ul>
+                       </div>
+                   </div>
+                   <div class="col-lg-3">
+                       <div class="page">
+                           <h6 class="mb-4 ml-4">PAGES</h6>
+                           <ul>
+                               <li>Portfolio</li>
+                               <li>Blog</li>
+                               <li>Shop</li>
+                           
+                           </ul>
+                       </div>
+                   </div>
+                   <div class="col-lg-3">
+                       <div class="support">
+                           <h6 class="mb-4 ml-4">SUPPORT</h6>
+                           <ul >
+                               <li>Help Desk</li>
+                               <li>Documentation</li>
+                               <li>Contact Us</li>
+                              
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+           </div>
+    </div>
+   </div>
+
+
+        <div class="copyRights py-5">
+            <div class="container">
+                <p class="text-center">© 2019 POLO - Responsive Multi-Purpose HTML5 Template. All Rights Reserved.<a href="#"> INSPIRO</a></p>
+            </div>
+        </div>
+     
+ </footer>
+   <!--end footer section-->
+   <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+   <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>  
+
+</body>
+</html>
